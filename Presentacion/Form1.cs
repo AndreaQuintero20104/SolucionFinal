@@ -26,7 +26,7 @@ namespace Presentacion
 
         private void jThinButton1_Click(object sender, EventArgs e)
         {
-            GestorUsuarios gsUsuarios = new GestorUsuarios(new DataCliente());
+            GestorUsuarios gsUsuarios = new GestorUsuarios(new Data());
 
             string cedula = txtCedula.Text;
             string contrasena = txtContraseña.Text;
@@ -49,6 +49,25 @@ namespace Presentacion
             this.Close();
             Application.Exit();
             System.Environment.Exit(1);
+        }
+
+        private void btnInicioAdministrador_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            GestorAdministradores gsAdmin = new GestorAdministradores(new Data());
+
+            int cedula =int.Parse(txtCedula.Text);
+            string contrasena = txtContraseña.Text;
+
+            if (gsAdmin.iniciarSesionAdmin(cedula, contrasena))
+            {
+                MessageBox.Show("Ingreso Correcto");
+                this.Hide();
+                
+            }
+            else
+            {
+                MessageBox.Show("Credenciales incorrectas");
+            }
         }
     }
 }
