@@ -55,5 +55,29 @@ namespace LogicaNegocioTest
 
             Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
+
+        [TestMethod]
+        public void ProbarIniciarSesionDueñoExistente()
+        {
+            bool resultadoEsperado = true;
+
+            GestorDueños gesCon = new GestorDueños(new DatosPruebasUnitarias());
+
+            bool resultadoObtenido = gesCon.iniciarSesionDueños(292617088, "cY7R2Pnv5");
+
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
+        }
+
+        [TestMethod]
+        public void ProbarIniciarSesionDueñoNoExistente()
+        {
+            bool resultadoEsperado = false;
+
+            GestorDueños gesCon = new GestorDueños(new DatosPruebasUnitarias());
+
+            bool resultadoObtenido = gesCon.iniciarSesionDueños(292617088, "sad");
+
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
+        }
     }
 }

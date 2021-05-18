@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocio
 {
-    class GestorDueños
+    public class GestorDueños
     {
+        private FuenteDatosRepository fuenteDatos;
+
+        public GestorDueños(FuenteDatosRepository fuente)
+        {
+            this.fuenteDatos = fuente;
+        }
+
+        public bool iniciarSesionDueños(int cedula, string contrasena)
+        {
+            return this.fuenteDatos.iniciarSesionDueños(cedula, contrasena);
+        }
     }
 }
