@@ -97,6 +97,7 @@ namespace Presentacion
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "SALIR";
             this.linkLabel3.UseCompatibleTextRendering = true;
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // btnInicioAdministrador
             // 
@@ -159,6 +160,7 @@ namespace Presentacion
             this.jThinButton1.Name = "jThinButton1";
             this.jThinButton1.Size = new System.Drawing.Size(327, 39);
             this.jThinButton1.TabIndex = 0;
+            this.jThinButton1.Click += new System.EventHandler(this.jThinButton1_Click);
             // 
             // label3
             // 
@@ -239,6 +241,7 @@ namespace Presentacion
             this.Controls.Add(this.jGradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.jGradientPanel2.ResumeLayout(false);

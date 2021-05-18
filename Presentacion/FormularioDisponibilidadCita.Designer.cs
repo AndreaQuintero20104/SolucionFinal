@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioDisponibilidadCita));
             this.I = new JGradient_Panel.JGradientPanel();
+            this.jFlatButton4 = new FlatButton.JFlatButton();
+            this.jFlatButton3 = new FlatButton.JFlatButton();
+            this.jFlatButton2 = new FlatButton.JFlatButton();
+            this.jFlatButton1 = new FlatButton.JFlatButton();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -53,10 +57,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.jFlatButton4 = new FlatButton.JFlatButton();
-            this.jFlatButton3 = new FlatButton.JFlatButton();
-            this.jFlatButton2 = new FlatButton.JFlatButton();
-            this.jFlatButton1 = new FlatButton.JFlatButton();
             this.I.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -84,6 +84,110 @@
             this.I.Size = new System.Drawing.Size(965, 634);
             this.I.TabIndex = 13;
             // 
+            // jFlatButton4
+            // 
+            this.jFlatButton4.BackColor = System.Drawing.Color.Transparent;
+            this.jFlatButton4.BackgroundColor = System.Drawing.Color.Transparent;
+            this.jFlatButton4.ButtonText = "Calificar";
+            this.jFlatButton4.CausesValidation = false;
+            this.jFlatButton4.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageLeft")));
+            this.jFlatButton4.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageRight")));
+            this.jFlatButton4.FocusBackground = System.Drawing.Color.Empty;
+            this.jFlatButton4.FocusFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton4.ForeColors = System.Drawing.Color.White;
+            this.jFlatButton4.HoverBackground = System.Drawing.Color.Empty;
+            this.jFlatButton4.HoverFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton4.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ImageLeft")));
+            this.jFlatButton4.ImageRight = null;
+            this.jFlatButton4.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton4.Location = new System.Drawing.Point(738, 265);
+            this.jFlatButton4.Name = "jFlatButton4";
+            this.jFlatButton4.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton4.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton4.RightPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton4.Size = new System.Drawing.Size(191, 72);
+            this.jFlatButton4.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.jFlatButton4.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.jFlatButton4.TabIndex = 40;
+            // 
+            // jFlatButton3
+            // 
+            this.jFlatButton3.BackColor = System.Drawing.Color.Transparent;
+            this.jFlatButton3.BackgroundColor = System.Drawing.Color.Transparent;
+            this.jFlatButton3.ButtonText = "Mis Promociones";
+            this.jFlatButton3.CausesValidation = false;
+            this.jFlatButton3.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageLeft")));
+            this.jFlatButton3.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageRight")));
+            this.jFlatButton3.FocusBackground = System.Drawing.Color.Empty;
+            this.jFlatButton3.FocusFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton3.ForeColors = System.Drawing.Color.White;
+            this.jFlatButton3.HoverBackground = System.Drawing.Color.Empty;
+            this.jFlatButton3.HoverFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton3.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ImageLeft")));
+            this.jFlatButton3.ImageRight = null;
+            this.jFlatButton3.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton3.Location = new System.Drawing.Point(738, 192);
+            this.jFlatButton3.Name = "jFlatButton3";
+            this.jFlatButton3.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton3.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton3.RightPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton3.Size = new System.Drawing.Size(256, 72);
+            this.jFlatButton3.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.jFlatButton3.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.jFlatButton3.TabIndex = 39;
+            // 
+            // jFlatButton2
+            // 
+            this.jFlatButton2.BackColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.BackgroundColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.ButtonText = "Mis Citas";
+            this.jFlatButton2.CausesValidation = false;
+            this.jFlatButton2.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageLeft")));
+            this.jFlatButton2.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageRight")));
+            this.jFlatButton2.FocusBackground = System.Drawing.Color.Empty;
+            this.jFlatButton2.FocusFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton2.ForeColors = System.Drawing.Color.White;
+            this.jFlatButton2.HoverBackground = System.Drawing.Color.Empty;
+            this.jFlatButton2.HoverFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton2.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ImageLeft")));
+            this.jFlatButton2.ImageRight = null;
+            this.jFlatButton2.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.Location = new System.Drawing.Point(738, 114);
+            this.jFlatButton2.Name = "jFlatButton2";
+            this.jFlatButton2.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton2.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton2.RightPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.Size = new System.Drawing.Size(200, 72);
+            this.jFlatButton2.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.jFlatButton2.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.jFlatButton2.TabIndex = 38;
+            // 
+            // jFlatButton1
+            // 
+            this.jFlatButton1.BackColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.ButtonText = "Mi Perfil";
+            this.jFlatButton1.CausesValidation = false;
+            this.jFlatButton1.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageLeft")));
+            this.jFlatButton1.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageRight")));
+            this.jFlatButton1.FocusBackground = System.Drawing.Color.Empty;
+            this.jFlatButton1.FocusFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton1.ForeColors = System.Drawing.Color.White;
+            this.jFlatButton1.HoverBackground = System.Drawing.Color.Empty;
+            this.jFlatButton1.HoverFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton1.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ImageLeft")));
+            this.jFlatButton1.ImageRight = null;
+            this.jFlatButton1.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.Location = new System.Drawing.Point(738, 36);
+            this.jFlatButton1.Name = "jFlatButton1";
+            this.jFlatButton1.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton1.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton1.RightPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.Size = new System.Drawing.Size(182, 72);
+            this.jFlatButton1.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.jFlatButton1.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.jFlatButton1.TabIndex = 37;
+            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
@@ -100,6 +204,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "SALIR";
             this.linkLabel1.UseCompatibleTextRendering = true;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // panel2
             // 
@@ -348,110 +453,6 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "MERCHBUCK";
             // 
-            // jFlatButton4
-            // 
-            this.jFlatButton4.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.ButtonText = "Calificar";
-            this.jFlatButton4.CausesValidation = false;
-            this.jFlatButton4.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageLeft")));
-            this.jFlatButton4.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageRight")));
-            this.jFlatButton4.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton4.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton4.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton4.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton4.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton4.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ImageLeft")));
-            this.jFlatButton4.ImageRight = null;
-            this.jFlatButton4.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.Location = new System.Drawing.Point(738, 265);
-            this.jFlatButton4.Name = "jFlatButton4";
-            this.jFlatButton4.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton4.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton4.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.Size = new System.Drawing.Size(191, 72);
-            this.jFlatButton4.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton4.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton4.TabIndex = 40;
-            // 
-            // jFlatButton3
-            // 
-            this.jFlatButton3.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.ButtonText = "Mis Promociones";
-            this.jFlatButton3.CausesValidation = false;
-            this.jFlatButton3.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageLeft")));
-            this.jFlatButton3.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageRight")));
-            this.jFlatButton3.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton3.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton3.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton3.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton3.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton3.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ImageLeft")));
-            this.jFlatButton3.ImageRight = null;
-            this.jFlatButton3.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.Location = new System.Drawing.Point(738, 192);
-            this.jFlatButton3.Name = "jFlatButton3";
-            this.jFlatButton3.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton3.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton3.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.Size = new System.Drawing.Size(256, 72);
-            this.jFlatButton3.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton3.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton3.TabIndex = 39;
-            // 
-            // jFlatButton2
-            // 
-            this.jFlatButton2.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.ButtonText = "Mis Citas";
-            this.jFlatButton2.CausesValidation = false;
-            this.jFlatButton2.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageLeft")));
-            this.jFlatButton2.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageRight")));
-            this.jFlatButton2.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton2.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton2.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton2.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton2.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton2.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ImageLeft")));
-            this.jFlatButton2.ImageRight = null;
-            this.jFlatButton2.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.Location = new System.Drawing.Point(738, 114);
-            this.jFlatButton2.Name = "jFlatButton2";
-            this.jFlatButton2.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton2.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton2.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.Size = new System.Drawing.Size(200, 72);
-            this.jFlatButton2.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton2.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton2.TabIndex = 38;
-            // 
-            // jFlatButton1
-            // 
-            this.jFlatButton1.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.ButtonText = "Mi Perfil";
-            this.jFlatButton1.CausesValidation = false;
-            this.jFlatButton1.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageLeft")));
-            this.jFlatButton1.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageRight")));
-            this.jFlatButton1.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton1.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton1.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton1.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton1.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton1.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ImageLeft")));
-            this.jFlatButton1.ImageRight = null;
-            this.jFlatButton1.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.Location = new System.Drawing.Point(738, 36);
-            this.jFlatButton1.Name = "jFlatButton1";
-            this.jFlatButton1.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton1.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton1.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.Size = new System.Drawing.Size(182, 72);
-            this.jFlatButton1.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton1.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton1.TabIndex = 37;
-            // 
             // FormularioDisponibilidadCita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -460,6 +461,7 @@
             this.Controls.Add(this.I);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormularioDisponibilidadCita";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormularioDisponibilidadCita";
             this.I.ResumeLayout(false);
             this.I.PerformLayout();

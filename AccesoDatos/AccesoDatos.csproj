@@ -44,5 +44,11 @@
     <Compile Include="DataCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj">
+      <Project>{2834792a-6dfb-4bf7-b62f-82920275b732}</Project>
+      <Name>LogicaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

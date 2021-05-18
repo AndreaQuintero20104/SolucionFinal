@@ -3,17 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AccesoDatos;
+
 
 namespace LogicaNegocio
 {
     public class GestorUsuarios
     {
-        DataCliente gestorClientes = new DataCliente();
+        private FuenteDatosRepository fuenteDatos;
 
+        public GestorUsuarios(FuenteDatosRepository fuente)
+        {
+            this.fuenteDatos = fuente;
+        }
+
+        
         public bool iniciarSesion(string cedula, string contrasena)
         {
-            return gestorClientes.iniciaSesion(cedula, contrasena);
+            return this.fuenteDatos.iniciarSesion(cedula, contrasena);
         }
     }
 }

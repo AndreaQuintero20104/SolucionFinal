@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LogicaNegocio;
+using AccesoDatos; 
 
 namespace Presentacion
 {
@@ -20,6 +22,33 @@ namespace Presentacion
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void jThinButton1_Click(object sender, EventArgs e)
+        {
+            GestorUsuarios gsUsuarios = new GestorUsuarios(new DataCliente());
+
+            string cedula = txtCedula.Text;
+            string contrasena = txtContraseña.Text;
+
+            if (gsUsuarios.iniciarSesion(cedula, contrasena))
+            {
+                MessageBox.Show("Ingreso Correcto");
+                this.Hide();
+                FormularioDisponibilidadCita cita = new FormularioDisponibilidadCita();
+                cita.Show();
+            }
+            else
+            {
+                MessageBox.Show("Credenciales incorrectas");
+            }
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+            System.Environment.Exit(1);
         }
     }
 }

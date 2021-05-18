@@ -100,5 +100,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos\AccesoDatos.csproj">
+      <Project>{af532acb-914e-487f-96b9-51f83e421408}</Project>
+      <Name>AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj">
+      <Project>{2834792a-6dfb-4bf7-b62f-82920275b732}</Project>
+      <Name>LogicaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

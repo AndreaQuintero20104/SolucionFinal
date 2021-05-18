@@ -4,10 +4,11 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LogicaNegocio;
 
 namespace AccesoDatos
 {
-    public class DataCliente
+    public class DataCliente : FuenteDatosRepository
     {
         private SqlConnection conexion;
 
@@ -16,7 +17,7 @@ namespace AccesoDatos
             conexion = new SqlConnection(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=MERCHBUCK;Data Source=DESKTOP-BLIRU0I\SQLEXPRESS");
         }
 
-        public bool iniciaSesion(string cedula, string contrasena)
+        public bool iniciarSesion(string cedula, string contrasena)
         {
             bool resultado = false;
 

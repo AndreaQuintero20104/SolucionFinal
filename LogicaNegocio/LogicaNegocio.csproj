@@ -41,14 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FuenteDatosRepository.cs" />
     <Compile Include="GestorUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AccesoDatos\AccesoDatos.csproj">
-      <Project>{af532acb-914e-487f-96b9-51f83e421408}</Project>
-      <Name>AccesoDatos</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
