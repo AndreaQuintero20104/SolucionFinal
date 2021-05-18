@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class Form1 : Form
+    public partial class FormularioDisponibilidadCita : Form
     {
-        public Form1()
+        public FormularioDisponibilidadCita()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
