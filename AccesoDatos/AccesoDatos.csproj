@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="DataAdministradores.cs" />
     <Compile Include="DataCliente.cs" />
+    <Compile Include="DatosPruebasUnitarias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

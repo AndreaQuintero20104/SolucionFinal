@@ -19,7 +19,7 @@ namespace LogicaNegocio
         
         public bool iniciarSesion(string cedula, string contrasena)
         {
-            return this.fuenteDatos.iniciarSesion(cedula, contrasena);
+             return this.fuenteDatos.iniciarSesion(cedula, contrasena);
         }
     }
 }
