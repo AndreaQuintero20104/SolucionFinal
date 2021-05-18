@@ -41,8 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAdministradores.cs" />
-    <Compile Include="DataCliente.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="DatosPruebasUnitarias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
