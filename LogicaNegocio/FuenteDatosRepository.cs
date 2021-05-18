@@ -9,5 +9,7 @@ namespace LogicaNegocio
     public interface FuenteDatosRepository
     {
         bool iniciarSesion(string cedula, string contrasena);
+
+        bool iniciarSesionAdministradores(int cedula, string contraseña);
     }
 }
