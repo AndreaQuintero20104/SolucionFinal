@@ -23,7 +23,7 @@ namespace AccesoDatos
 
             conexion.Open();
 
-            string select = string.Format("Select Cedula FROM Clientes WHERE Cedula = {0} and Contraseña = {1}", cedula, contrasena);
+            string select = string.Format("Select Cedula FROM Clientes WHERE Cedula = {0} and Contraseña = '{1}'", cedula, contrasena);
 
             SqlCommand comando = new SqlCommand(select, conexion);
             SqlDataReader registros = comando.ExecuteReader();
@@ -44,7 +44,28 @@ namespace AccesoDatos
 
             conexion.Open();
 
-            string select = string.Format("Select Cedula FROM Administradores WHERE Cedula = {0} and Contraseña = {1}", cedula, contrasena);
+            string select = string.Format("Select Cedula FROM Administradores WHERE Cedula = {0} and Contraseña = '{1}'", cedula, contrasena);
+
+            SqlCommand comando = new SqlCommand(select, conexion);
+            SqlDataReader registros = comando.ExecuteReader();
+
+            if (registros.HasRows)
+            {
+                resultado = true;
+            }
+
+            conexion.Close();
+
+            return resultado;
+        }
+
+        public bool iniciarSesionDueños(int cedula, string contrasena)
+        {
+            bool resultado = false;
+
+            conexion.Open();
+
+            string select = string.Format("Select Cedula FROM Dueños WHERE Cedula = {0} and Contraseña = '{1}'", cedula, contrasena);
 
             SqlCommand comando = new SqlCommand(select, conexion);
             SqlDataReader registros = comando.ExecuteReader();

@@ -80,6 +80,7 @@ namespace Presentacion
             this.btnIniciarDueño.TabStop = true;
             this.btnIniciarDueño.Text = "Iniciar como Dueño";
             this.btnIniciarDueño.UseCompatibleTextRendering = true;
+            this.btnIniciarDueño.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.btnIniciarDueño_LinkClicked);
             // 
             // linkLabel3
             // 
