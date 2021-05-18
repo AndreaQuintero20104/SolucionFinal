@@ -69,5 +69,24 @@ namespace Presentacion
                 MessageBox.Show("Credenciales incorrectas");
             }
         }
+
+        private void btnIniciarDueño_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            GestorDueños gsDueño = new GestorDueños(new Data());
+
+            int cedula = int.Parse(txtCedula.Text);
+            string contrasena = txtContraseña.Text;
+
+            if (gsDueño.iniciarSesionDueños(cedula, contrasena))
+            {
+                MessageBox.Show("Ingreso Correcto");
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Credenciales incorrectas");
+            }
+        }
     }
 }

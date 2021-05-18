@@ -11,5 +11,7 @@ namespace LogicaNegocio
         bool iniciarSesion(string cedula, string contrasena);
 
         bool iniciarSesionAdministradores(int cedula, string contraseña);
+
+        bool iniciarSesionDueños(int cedula, string contraseña);
     }
 }

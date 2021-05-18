@@ -19,6 +19,7 @@ namespace AccesoDatos
 
             this.baseDatos.Add("1001540023", "123456");
             this.baseDatos2.Add(123456789, "11111");
+            this.baseDatos2.Add(292617088, "cY7R2Pnv5");
 
         }
 
@@ -39,6 +40,21 @@ namespace AccesoDatos
         }
 
         public bool iniciarSesionAdministradores(int cedula, string contrasena)
+        {
+
+            if (this.baseDatos2[cedula] == contrasena)
+            {
+
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public bool iniciarSesionDueños(int cedula, string contrasena)
         {
 
             if (this.baseDatos2[cedula] == contrasena)
