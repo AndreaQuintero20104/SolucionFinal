@@ -115,6 +115,7 @@ namespace Presentacion
             this.btnInicioAdministrador.TabStop = true;
             this.btnInicioAdministrador.Text = "Iniciar como Administrador";
             this.btnInicioAdministrador.UseCompatibleTextRendering = true;
+            this.btnInicioAdministrador.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.btnInicioAdministrador_LinkClicked);
             // 
             // txtCedula
             // 
