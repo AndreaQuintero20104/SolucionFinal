@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="FuenteDatosRepository.cs" />
     <Compile Include="GestorAdministradores.cs" />
     <Compile Include="GestorDueños.cs" />
