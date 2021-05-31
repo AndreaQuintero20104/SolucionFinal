@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".DisponibilidadCita">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/btnSalir2"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="365dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="9dp"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:fontFamily="@font/goticb"
+                android:text="Salir"
+                android:textColor="#70738F"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="377dp"
+                android:layout_height="483dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="190dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="174dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/gothic"
+                android:text="Sistema de Agendamiento de Citas"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="135dp"
+                android:layout_height="89dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="34dp"
+                android:fontFamily="@font/brushscriptmtkursiv"
+                android:text="MB"
+                android:textColor="#FFFFFF"
+                android:textSize="90dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="174dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/goticb"
+                android:text="MERCHBUCK"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="205dp"
+                android:fontFamily="@font/gothic"
+                android:text="Establecimiento"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="443dp"
+                android:fontFamily="@font/gothic"
+                android:text="Observaciones"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="204dp"
+                android:fontFamily="@font/gothic"
+                android:text="Profesional"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/valor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="157dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/gothic"
+                android:text="0"
+                android:textColor="#660C57"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/BtnRegistrar"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="571dp"
+                android:background="@drawable/redondearbot"
+                android:fontFamily="sans-serif-medium"
+                android:text="REGISTRARME"
+                android:textSize="20sp"
+                app:backgroundTint="#1053E1" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="383dp"
+                android:layout_height="33dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="144dp"
+                android:layout_marginEnd="15dp"
+                android:adjustViewBounds="false"
+                android:background="#971B82"
+                android:baselineAlignBottom="false" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="381dp"
+                android:layout_height="34dp"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="58dp"
+                android:fontFamily="@font/goticb"
+                android:text="Disponibilidad de Citas"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/ListEstablecimiento"
+                android:layout_width="164dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="235dp"
+                android:background="@drawable/redondear" />
+
+            <Spinner
+                android:id="@+id/ListProfesional"
+                android:layout_width="162dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="216dp"
+                android:layout_marginTop="233dp"
+                android:background="@drawable/redondear" />
+
+            <Spinner
+                android:id="@+id/ListServicio"
+                android:layout_width="164dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="305dp"
+                android:background="@drawable/redondear" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="279dp"
+                android:fontFamily="@font/gothic"
+                android:text="Tipo Servicio"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/ListFecha"
+                android:layout_width="162dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="218dp"
+                android:layout_marginTop="304dp"
+                android:background="@drawable/redondear" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="217dp"
+                android:layout_marginTop="280dp"
+                android:fontFamily="@font/gothic"
+                android:text="Fecha"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/ListHora"
+                android:layout_width="162dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="122dp"
+                android:layout_marginTop="377dp"
+                android:background="@drawable/redondear" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="352dp"
+                android:fontFamily="@font/gothic"
+                android:text="Hora"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="335dp"
+                android:layout_height="74dp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentBottom="false"
+                android:layout_marginTop="474dp"
+                android:layout_marginEnd="39dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
