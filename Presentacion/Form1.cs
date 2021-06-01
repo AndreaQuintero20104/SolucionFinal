@@ -30,12 +30,16 @@ namespace Presentacion
 
             string cedula = txtCedula.Text;
             string contrasena = txtContraseña.Text;
+            Usuario usuario = new Usuario();
+            usuario.cedula = cedula;
+            usuario.contraseña = contrasena;
 
-            if (gsUsuarios.iniciarSesion(cedula, contrasena))
+            if (gsUsuarios.iniciarSesion(usuario))
             {
                 MessageBox.Show("Ingreso Correcto");
                 this.Hide();
                 FormularioDisponibilidadCita cita = new FormularioDisponibilidadCita();
+                cita.label9.Text = txtCedula.Text;
                 cita.Show();
             }
             else
@@ -62,7 +66,10 @@ namespace Presentacion
             {
                 MessageBox.Show("Ingreso Correcto");
                 this.Hide();
-                
+                PantallaOpcionesAdministrador pantallaAdmin = new PantallaOpcionesAdministrador();
+
+                pantallaAdmin.label1.Text = txtCedula.Text;
+                pantallaAdmin.Show();
             }
             else
             {
@@ -82,11 +89,21 @@ namespace Presentacion
                 MessageBox.Show("Ingreso Correcto");
                 this.Hide();
 
+                PantallaOpcionesDueño dueño = new PantallaOpcionesDueño();
+                dueño.label5.Text = txtCedula.Text;
+                dueño.Show();
+
             }
             else
             {
                 MessageBox.Show("Credenciales incorrectas");
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PantallaRegistrar registrar = new PantallaRegistrar();
+            registrar.Show();
         }
     }
 }

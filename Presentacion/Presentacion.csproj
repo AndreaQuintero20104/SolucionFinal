@@ -47,6 +47,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,19 +65,82 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioDetallesCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioDetallesCita.Designer.cs">
+      <DependentUpon>FormularioDetallesCita.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioDisponibilidadCita.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioDisponibilidadCita.Designer.cs">
       <DependentUpon>FormularioDisponibilidadCita.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaGraficoAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaGraficoAdministrador.Designer.cs">
+      <DependentUpon>PantallaGraficoAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaGraficoDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaGraficoDueño.Designer.cs">
+      <DependentUpon>PantallaGraficoDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaOpcionesAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaOpcionesAdministrador.Designer.cs">
+      <DependentUpon>PantallaOpcionesAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaOpcionesDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaOpcionesDueño.Designer.cs">
+      <DependentUpon>PantallaOpcionesDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaProgramarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaProgramarAgenda.Designer.cs">
+      <DependentUpon>PantallaProgramarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistrar.Designer.cs">
+      <DependentUpon>PantallaRegistrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormularioDetallesCita.resx">
+      <DependentUpon>FormularioDetallesCita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioDisponibilidadCita.resx">
       <DependentUpon>FormularioDisponibilidadCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaGraficoAdministrador.resx">
+      <DependentUpon>PantallaGraficoAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaGraficoDueño.resx">
+      <DependentUpon>PantallaGraficoDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaOpcionesAdministrador.resx">
+      <DependentUpon>PantallaOpcionesAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaOpcionesDueño.resx">
+      <DependentUpon>PantallaOpcionesDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaProgramarAgenda.resx">
+      <DependentUpon>PantallaProgramarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistrar.resx">
+      <DependentUpon>PantallaRegistrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

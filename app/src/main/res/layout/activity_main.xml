@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/BtnRegistrarUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:fontFamily="@font/goticb"
+        android:text="Registrarme"
+        android:textColor="#70738F"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:fontFamily="@font/goticb"
+        android:text="Salir"
+        android:textColor="#70738F"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnIngresar"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/redondearbot"
+        android:fontFamily="sans-serif-medium"
+        android:text="INGRESAR"
+        android:textSize="20sp"
+        app:backgroundTint="#1053E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtContraseña"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/TxtCedula"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/redondear"
+        android:ems="10"
+        android:fontFamily="@font/gothic"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TxtContraseña"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/redondear"
+        android:ems="10"
+        android:fontFamily="@font/gothic"
+        android:inputType="textPersonName|textPassword"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtCedula" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/gothic"
+        android:text="CONTRASEÑA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/TxtContraseña"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/gothic"
+        android:text="CÉDULA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/TxtCedula"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/gothic"
+        android:text="INGRESAR"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        app:backgroundTint="#1053E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="52dp"
+        android:clickable="false"
+        app:backgroundTint="#70738F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnIngresar"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="11dp"
+        android:clickable="false"
+        app:backgroundTint="#70738F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnRegistrarUsuario"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/BtnIngresarDueño"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:clickable="true"
+        android:fontFamily="@font/goticb"
+        android:text="Iniciar como Dueño"
+        android:textColor="#70738F"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnIgresarAdmin" />
+
+    <TextView
+        android:id="@+id/BtnIgresarAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:clickable="true"
+        android:fontFamily="@font/goticb"
+        android:text="Iniciar como Administrador"
+        android:textColor="#70738F"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
