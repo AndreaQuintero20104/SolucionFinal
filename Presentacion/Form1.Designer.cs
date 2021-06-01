@@ -42,6 +42,8 @@ namespace Presentacion
             this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.jGradientPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +51,7 @@ namespace Presentacion
             // 
             this.jGradientPanel2.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(83)))), ((int)(((byte)(117)))));
             this.jGradientPanel2.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(12)))), ((int)(((byte)(87)))));
+            this.jGradientPanel2.Controls.Add(this.linkLabel1);
             this.jGradientPanel2.Controls.Add(this.btnIniciarDueño);
             this.jGradientPanel2.Controls.Add(this.linkLabel3);
             this.jGradientPanel2.Controls.Add(this.btnInicioAdministrador);
@@ -209,6 +212,7 @@ namespace Presentacion
             this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer2.Name = "shapeContainer2";
             this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape3,
             this.lineShape1,
             this.lineShape2});
             this.shapeContainer2.Size = new System.Drawing.Size(386, 452);
@@ -234,6 +238,34 @@ namespace Presentacion
             this.lineShape2.X2 = 351;
             this.lineShape2.Y1 = 369;
             this.lineShape2.Y2 = 369;
+            // 
+            // lineShape3
+            // 
+            this.lineShape3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(132)))));
+            this.lineShape3.BorderWidth = 2;
+            this.lineShape3.Name = "lineShape3";
+            this.lineShape3.X1 = 28;
+            this.lineShape3.X2 = 358;
+            this.lineShape3.Y1 = 340;
+            this.lineShape3.Y2 = 341;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(115)))), ((int)(((byte)(143)))));
+            this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(115)))), ((int)(((byte)(143)))));
+            this.linkLabel1.Location = new System.Drawing.Point(149, 345);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(82, 21);
+            this.linkLabel1.TabIndex = 13;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Registrarme";
+            this.linkLabel1.UseCompatibleTextRendering = true;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Form1
             // 
@@ -267,6 +299,8 @@ namespace Presentacion
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer2;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
     }
 }
 

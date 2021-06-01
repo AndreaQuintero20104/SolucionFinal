@@ -17,9 +17,16 @@ namespace LogicaNegocio
         }
 
         
-        public bool iniciarSesion(string cedula, string contrasena)
+        public bool iniciarSesion(Usuario usuario)
         {
-             return this.fuenteDatos.iniciarSesion(cedula, contrasena);
+             return this.fuenteDatos.iniciarSesion(usuario.cedula, usuario.contraseña);
+        }
+
+        public string RegistrarCliente(Usuario usuario)
+        {
+             this.fuenteDatos.RegistrarCliente(usuario.cedula, usuario.contraseña, usuario.nombre, usuario.celular, usuario.telefono, usuario.fechanac, usuario.direccion, usuario.email);
+
+            return "se agregó correctamente";
         }
     }
 }
