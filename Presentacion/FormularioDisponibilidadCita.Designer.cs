@@ -30,17 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioDisponibilidadCita));
             this.I = new JGradient_Panel.JGradientPanel();
-            this.jFlatButton4 = new FlatButton.JFlatButton();
-            this.jFlatButton3 = new FlatButton.JFlatButton();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.jFlatButton2 = new FlatButton.JFlatButton();
             this.jFlatButton1 = new FlatButton.JFlatButton();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -51,16 +48,15 @@
             this.cbServicios = new System.Windows.Forms.ComboBox();
             this.CbEstablecimientos = new System.Windows.Forms.ComboBox();
             this.CbProfesionales = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.cbHoras = new System.Windows.Forms.ComboBox();
+            this.cbFechas = new System.Windows.Forms.ComboBox();
+            this.jThinButton1 = new JThinButton.JThinButton();
+            this.jThinButton2 = new JThinButton.JThinButton();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.I.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // I
@@ -68,125 +64,43 @@
             this.I.BackColor = System.Drawing.Color.Transparent;
             this.I.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(83)))), ((int)(((byte)(117)))));
             this.I.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(12)))), ((int)(((byte)(87)))));
-            this.I.Controls.Add(this.jFlatButton4);
-            this.I.Controls.Add(this.jFlatButton3);
+            this.I.Controls.Add(this.label12);
+            this.I.Controls.Add(this.label9);
+            this.I.Controls.Add(this.linkLabel1);
             this.I.Controls.Add(this.jFlatButton2);
             this.I.Controls.Add(this.jFlatButton1);
-            this.I.Controls.Add(this.linkLabel1);
             this.I.Controls.Add(this.panel2);
             this.I.Controls.Add(this.panel1);
-            this.I.Controls.Add(this.linkLabel3);
             this.I.Controls.Add(this.label3);
-            this.I.Controls.Add(this.pictureBox1);
             this.I.Controls.Add(this.label2);
-            this.I.Location = new System.Drawing.Point(0, -1);
+            this.I.Location = new System.Drawing.Point(-1, 0);
             this.I.Name = "I";
-            this.I.Size = new System.Drawing.Size(965, 634);
-            this.I.TabIndex = 13;
+            this.I.Size = new System.Drawing.Size(967, 631);
+            this.I.TabIndex = 12;
             // 
-            // jFlatButton4
+            // label12
             // 
-            this.jFlatButton4.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.ButtonText = "Calificar";
-            this.jFlatButton4.CausesValidation = false;
-            this.jFlatButton4.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageLeft")));
-            this.jFlatButton4.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageRight")));
-            this.jFlatButton4.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton4.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton4.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton4.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton4.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton4.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ImageLeft")));
-            this.jFlatButton4.ImageRight = null;
-            this.jFlatButton4.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.Location = new System.Drawing.Point(738, 265);
-            this.jFlatButton4.Name = "jFlatButton4";
-            this.jFlatButton4.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton4.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton4.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton4.Size = new System.Drawing.Size(191, 72);
-            this.jFlatButton4.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton4.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton4.TabIndex = 40;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Brush Script MT", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Transparent;
+            this.label12.Location = new System.Drawing.Point(19, 18);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(185, 117);
+            this.label12.TabIndex = 38;
+            this.label12.Text = "MB";
             // 
-            // jFlatButton3
+            // label9
             // 
-            this.jFlatButton3.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.ButtonText = "Mis Promociones";
-            this.jFlatButton3.CausesValidation = false;
-            this.jFlatButton3.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageLeft")));
-            this.jFlatButton3.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageRight")));
-            this.jFlatButton3.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton3.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton3.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton3.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton3.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton3.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ImageLeft")));
-            this.jFlatButton3.ImageRight = null;
-            this.jFlatButton3.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.Location = new System.Drawing.Point(738, 192);
-            this.jFlatButton3.Name = "jFlatButton3";
-            this.jFlatButton3.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton3.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton3.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.Size = new System.Drawing.Size(256, 72);
-            this.jFlatButton3.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton3.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton3.TabIndex = 39;
-            // 
-            // jFlatButton2
-            // 
-            this.jFlatButton2.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.ButtonText = "Mis Citas";
-            this.jFlatButton2.CausesValidation = false;
-            this.jFlatButton2.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageLeft")));
-            this.jFlatButton2.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageRight")));
-            this.jFlatButton2.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton2.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton2.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton2.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton2.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton2.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ImageLeft")));
-            this.jFlatButton2.ImageRight = null;
-            this.jFlatButton2.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.Location = new System.Drawing.Point(738, 114);
-            this.jFlatButton2.Name = "jFlatButton2";
-            this.jFlatButton2.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton2.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton2.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.Size = new System.Drawing.Size(200, 72);
-            this.jFlatButton2.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton2.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton2.TabIndex = 38;
-            // 
-            // jFlatButton1
-            // 
-            this.jFlatButton1.BackColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.ButtonText = "Mi Perfil";
-            this.jFlatButton1.CausesValidation = false;
-            this.jFlatButton1.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageLeft")));
-            this.jFlatButton1.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageRight")));
-            this.jFlatButton1.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton1.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton1.ForeColors = System.Drawing.Color.White;
-            this.jFlatButton1.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton1.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton1.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ImageLeft")));
-            this.jFlatButton1.ImageRight = null;
-            this.jFlatButton1.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.Location = new System.Drawing.Point(738, 36);
-            this.jFlatButton1.Name = "jFlatButton1";
-            this.jFlatButton1.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton1.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton1.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton1.Size = new System.Drawing.Size(182, 72);
-            this.jFlatButton1.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton1.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton1.TabIndex = 37;
+            this.label9.AccessibleName = "label9";
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.Color.Yellow;
+            this.label9.Location = new System.Drawing.Point(23, 18);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 17);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "label9";
+            this.label9.UseCompatibleTextRendering = true;
             // 
             // linkLabel1
             // 
@@ -204,7 +118,61 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "SALIR";
             this.linkLabel1.UseCompatibleTextRendering = true;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
+            // 
+            // jFlatButton2
+            // 
+            this.jFlatButton2.BackColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.BackgroundColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.ButtonText = "Mis Citas";
+            this.jFlatButton2.CausesValidation = false;
+            this.jFlatButton2.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageLeft")));
+            this.jFlatButton2.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageRight")));
+            this.jFlatButton2.FocusBackground = System.Drawing.Color.Empty;
+            this.jFlatButton2.FocusFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton2.ForeColors = System.Drawing.Color.White;
+            this.jFlatButton2.HoverBackground = System.Drawing.Color.Empty;
+            this.jFlatButton2.HoverFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton2.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ImageLeft")));
+            this.jFlatButton2.ImageRight = null;
+            this.jFlatButton2.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.Location = new System.Drawing.Point(734, 240);
+            this.jFlatButton2.Name = "jFlatButton2";
+            this.jFlatButton2.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton2.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton2.RightPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton2.Size = new System.Drawing.Size(200, 72);
+            this.jFlatButton2.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.jFlatButton2.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.jFlatButton2.TabIndex = 33;
+            this.jFlatButton2.Click += new System.EventHandler(this.jFlatButton2_Click);
+            // 
+            // jFlatButton1
+            // 
+            this.jFlatButton1.BackColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.ButtonText = "Mi Perfil";
+            this.jFlatButton1.CausesValidation = false;
+            this.jFlatButton1.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageLeft")));
+            this.jFlatButton1.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ErrorImageRight")));
+            this.jFlatButton1.FocusBackground = System.Drawing.Color.Empty;
+            this.jFlatButton1.FocusFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton1.ForeColors = System.Drawing.Color.White;
+            this.jFlatButton1.HoverBackground = System.Drawing.Color.Empty;
+            this.jFlatButton1.HoverFontColor = System.Drawing.Color.Empty;
+            this.jFlatButton1.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton1.ImageLeft")));
+            this.jFlatButton1.ImageRight = null;
+            this.jFlatButton1.LeftPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.Location = new System.Drawing.Point(734, 157);
+            this.jFlatButton1.Name = "jFlatButton1";
+            this.jFlatButton1.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton1.PaddingRightPicture = new System.Windows.Forms.Padding(0);
+            this.jFlatButton1.RightPictureColor = System.Drawing.Color.Transparent;
+            this.jFlatButton1.Size = new System.Drawing.Size(182, 72);
+            this.jFlatButton1.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.jFlatButton1.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.jFlatButton1.TabIndex = 29;
+            this.jFlatButton1.Click += new System.EventHandler(this.jFlatButton1_Click);
             // 
             // panel2
             // 
@@ -230,9 +198,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
-            this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.richTextBox1);
             this.panel1.Controls.Add(this.label8);
@@ -243,48 +208,14 @@
             this.panel1.Controls.Add(this.cbServicios);
             this.panel1.Controls.Add(this.CbEstablecimientos);
             this.panel1.Controls.Add(this.CbProfesionales);
-            this.panel1.Controls.Add(this.comboBox5);
-            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.cbHoras);
+            this.panel1.Controls.Add(this.cbFechas);
+            this.panel1.Controls.Add(this.jThinButton1);
+            this.panel1.Controls.Add(this.jThinButton2);
             this.panel1.Location = new System.Drawing.Point(13, 219);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(694, 404);
             this.panel1.TabIndex = 30;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(540, 125);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(50, 25);
-            this.radioButton2.TabIndex = 34;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "No";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.radioButton1.Location = new System.Drawing.Point(451, 125);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(39, 25);
-            this.radioButton1.TabIndex = 33;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Si";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(447, 96);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(168, 21);
-            this.label11.TabIndex = 32;
-            this.label11.Text = "Enviar recordatorio?";
             // 
             // label10
             // 
@@ -304,13 +235,14 @@
             this.richTextBox1.Size = new System.Drawing.Size(630, 101);
             this.richTextBox1.TabIndex = 30;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(22, 96);
+            this.label8.Location = new System.Drawing.Point(374, 104);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(47, 21);
             this.label8.TabIndex = 28;
@@ -321,7 +253,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(230, 96);
+            this.label7.Location = new System.Drawing.Point(166, 105);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(59, 21);
             this.label7.TabIndex = 27;
@@ -377,6 +309,7 @@
             this.CbEstablecimientos.Name = "CbEstablecimientos";
             this.CbEstablecimientos.Size = new System.Drawing.Size(149, 21);
             this.CbEstablecimientos.TabIndex = 18;
+            this.CbEstablecimientos.SelectedIndexChanged += new System.EventHandler(this.CbEstablecimientos_SelectedIndexChanged);
             // 
             // CbProfesionales
             // 
@@ -385,39 +318,68 @@
             this.CbProfesionales.Name = "CbProfesionales";
             this.CbProfesionales.Size = new System.Drawing.Size(163, 21);
             this.CbProfesionales.TabIndex = 17;
+            this.CbProfesionales.SelectedIndexChanged += new System.EventHandler(this.CbProfesionales_SelectedIndexChanged);
             // 
-            // comboBox5
+            // cbHoras
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(234, 121);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(160, 21);
-            this.comboBox5.TabIndex = 21;
+            this.cbHoras.FormattingEnabled = true;
+            this.cbHoras.Location = new System.Drawing.Point(378, 129);
+            this.cbHoras.Name = "cbHoras";
+            this.cbHoras.Size = new System.Drawing.Size(160, 21);
+            this.cbHoras.TabIndex = 21;
+            this.cbHoras.SelectedIndexChanged += new System.EventHandler(this.cbHoras_SelectedIndexChanged);
             // 
-            // comboBox4
+            // cbFechas
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(26, 121);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(149, 21);
-            this.comboBox4.TabIndex = 20;
+            this.cbFechas.FormattingEnabled = true;
+            this.cbFechas.Location = new System.Drawing.Point(170, 129);
+            this.cbFechas.Name = "cbFechas";
+            this.cbFechas.Size = new System.Drawing.Size(149, 21);
+            this.cbFechas.TabIndex = 20;
+            this.cbFechas.SelectedIndexChanged += new System.EventHandler(this.cbFechas_SelectedIndexChanged);
             // 
-            // linkLabel3
+            // jThinButton1
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel3.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(115)))), ((int)(((byte)(143)))));
-            this.linkLabel3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
-            this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel3.LinkColor = System.Drawing.Color.White;
-            this.linkLabel3.Location = new System.Drawing.Point(905, 605);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(48, 21);
-            this.linkLabel3.TabIndex = 29;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Ayuda";
-            this.linkLabel3.UseCompatibleTextRendering = true;
+            this.jThinButton1.BackColor = System.Drawing.Color.Transparent;
+            this.jThinButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(27)))), ((int)(((byte)(130)))));
+            this.jThinButton1.BorderColor = System.Drawing.Color.Transparent;
+            this.jThinButton1.BorderRadius = 18;
+            this.jThinButton1.ButtonText = "Agendar";
+            this.jThinButton1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.jThinButton1.Font_Size = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.jThinButton1.ForeColors = System.Drawing.Color.White;
+            this.jThinButton1.HoverBackground = System.Drawing.Color.White;
+            this.jThinButton1.HoverBorder = System.Drawing.Color.Empty;
+            this.jThinButton1.HoverFontColor = System.Drawing.SystemColors.Highlight;
+            this.jThinButton1.LineThickness = 2;
+            this.jThinButton1.Location = new System.Drawing.Point(89, 337);
+            this.jThinButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.jThinButton1.Name = "jThinButton1";
+            this.jThinButton1.Size = new System.Drawing.Size(212, 39);
+            this.jThinButton1.TabIndex = 22;
+            this.jThinButton1.Click += new System.EventHandler(this.jThinButton1_Click_1);
+            // 
+            // jThinButton2
+            // 
+            this.jThinButton2.BackColor = System.Drawing.Color.Transparent;
+            this.jThinButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(27)))), ((int)(((byte)(130)))));
+            this.jThinButton2.BorderColor = System.Drawing.Color.Transparent;
+            this.jThinButton2.BorderRadius = 18;
+            this.jThinButton2.ButtonText = "Limpiar Campos";
+            this.jThinButton2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.jThinButton2.Font_Size = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.jThinButton2.ForeColors = System.Drawing.Color.White;
+            this.jThinButton2.HoverBackground = System.Drawing.Color.White;
+            this.jThinButton2.HoverBorder = System.Drawing.Color.Empty;
+            this.jThinButton2.HoverFontColor = System.Drawing.SystemColors.Highlight;
+            this.jThinButton2.LineThickness = 2;
+            this.jThinButton2.Location = new System.Drawing.Point(365, 337);
+            this.jThinButton2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.jThinButton2.Name = "jThinButton2";
+            this.jThinButton2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.jThinButton2.Size = new System.Drawing.Size(206, 39);
+            this.jThinButton2.TabIndex = 23;
+            this.jThinButton2.Click += new System.EventHandler(this.jThinButton2_Click);
             // 
             // label3
             // 
@@ -430,16 +392,6 @@
             this.label3.Size = new System.Drawing.Size(334, 22);
             this.label3.TabIndex = 15;
             this.label3.Text = "Sistema de Agendamiento de Citas";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(39, 35);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 82);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -463,13 +415,13 @@
             this.Name = "FormularioDisponibilidadCita";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormularioDisponibilidadCita";
+            this.Load += new System.EventHandler(this.FormularioDisponibilidadCita_Load);
             this.I.ResumeLayout(false);
             this.I.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -477,17 +429,14 @@
         #endregion
 
         private JGradient_Panel.JGradientPanel I;
-        private FlatButton.JFlatButton jFlatButton4;
-        private FlatButton.JFlatButton jFlatButton3;
+        private System.Windows.Forms.Label label12;
+        public System.Windows.Forms.Label label9;
+        private System.Windows.Forms.LinkLabel linkLabel1;
         private FlatButton.JFlatButton jFlatButton2;
         private FlatButton.JFlatButton jFlatButton1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label8;
@@ -498,11 +447,11 @@
         private System.Windows.Forms.ComboBox cbServicios;
         private System.Windows.Forms.ComboBox CbEstablecimientos;
         private System.Windows.Forms.ComboBox CbProfesionales;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.ComboBox cbHoras;
+        private System.Windows.Forms.ComboBox cbFechas;
+        private JThinButton.JThinButton jThinButton1;
+        private JThinButton.JThinButton jThinButton2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
     }
 }

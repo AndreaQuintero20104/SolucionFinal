@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="FuenteDatosRepository.cs" />
     <Compile Include="GestorAdministradores.cs" />
+    <Compile Include="GestorAgendas.cs" />
+    <Compile Include="GestorCitas.cs" />
     <Compile Include="GestorDueños.cs" />
+    <Compile Include="GestorEstablecimientos.cs" />
+    <Compile Include="GestorProfesionales.cs" />
+    <Compile Include="GestorServicios.cs" />
     <Compile Include="GestorUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="Verificadores.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
