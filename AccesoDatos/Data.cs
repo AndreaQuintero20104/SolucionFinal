@@ -171,7 +171,7 @@ namespace AccesoDatos
 
             conexion.Open();
 
-            string select = string.Format("select Agendas.Dia from Agendas inner join Profesionales " +
+            string select = string.Format("select CONVERT(varchar, Agendas.Dia,10) from Agendas inner join Profesionales " +
                 "on IDProfesional = Profesionales.ID Where Profesionales.Nombre = '{0}' " +
                 "and Agendas.Estado = 1", nombreProf);
 

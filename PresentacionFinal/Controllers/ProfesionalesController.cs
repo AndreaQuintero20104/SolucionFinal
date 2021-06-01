@@ -37,7 +37,7 @@ namespace PresentacionFinal.Controllers
             List<string> resultado = user2.CargarFechas(user1.nombreprof);
 
             ResponseFecha resp = new ResponseFecha();
-            resp.fechas = resultado;
+            resp.fechas= resultado;
 
             return resp;
         }

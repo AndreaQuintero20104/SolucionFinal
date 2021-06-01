@@ -101,7 +101,7 @@ namespace Presentacion
 
             foreach (string elemento in agendas.CargarFechas(ag))
             {
-                cbFechas.Items.Add(Convert.ToDateTime(elemento).ToString("yyyy-MM-dd"));
+                cbFechas.Items.Add(elemento);
             }
 
         }
@@ -126,10 +126,11 @@ namespace Presentacion
 
             GestorAgendas agendas = new GestorAgendas(new Data());
             string ag = CbProfesionales.Text;
-            DateTime fe = Convert.ToDateTime(cbFechas.Text).Date;
+            string ff = cbFechas.Text;
+            var se = DateTime.Parse(ff);
            
 
-            foreach (string elemento in agendas.CargarHoras(ag, fe))
+            foreach (string elemento in agendas.CargarHoras(ag, se))
             {
                 cbHoras.Items.Add(elemento);
             }
